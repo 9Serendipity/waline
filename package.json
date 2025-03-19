@@ -3,20 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "description": "Waline comment system server",
-  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node api/index.js"
   },
   "dependencies": {
     "@waline/vercel": "^1.30.0"
-  },
-  "devDependencies": {
-    "@types/node": "^22",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.17",
-    "typescript": "^5"
   },
   "license": "MIT"
 }
